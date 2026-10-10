@@ -1,4 +1,4 @@
-name: Price logger
+name: weekly_sales_report
 
 on:
   schedule:
