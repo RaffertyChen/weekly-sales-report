@@ -18,8 +18,8 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Run price logger
-        run: python sheets.py
+      - name: Run weekly sales report
+        run: weekly_sales_report.py
         env:
           COINGECKO_API_KEY: ${{ secrets.COINGECKO_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
