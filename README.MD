@@ -23,7 +23,7 @@ Python does all the maths. The AI only writes the summary, using the numbers it'
 
 1. Install Python from python.org.
 2. In a terminal in this folder, run: `python -m pip install -r requirements.txt`
-3. Copy `.env.example` to a new file called `.env`, and add your Anthropic key and your Gmail details.
+3. Copy `.env.example` to a new file called `.env`, and add your Anthropic key(https://platform.claude.com/dashboard) and your Gmail details(https://myaccount.google.com/apppasswords).
 4. Run: `python weekly_sales_report.py`
 
 ## Files
@@ -31,4 +31,4 @@ Python does all the maths. The AI only writes the summary, using the numbers it'
 - `weekly_sales_report.py`: the script
 - `orders_export.xlsx`: a practice order export full of messes (made up)
 - `sales_report.xlsx`: the report the script made from it
-- `.github/workflows/weekly_report.yml`: tells GitHub to run it every Monday
+- `.github/workflows/weekly_sales_report.yml`: tells GitHub to run it every Monday
